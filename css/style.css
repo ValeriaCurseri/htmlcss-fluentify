@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* da cancellare */
+.container-fullwidth{
+    height: 400px;
+}
+.blu{
+    background-color: #0d325a;
+}
+.grigio{
+    background-color: #f9f9f9;
+}
+.bianco{
+    background-color: #fff;
+}
+.container{
+    width:85%;
+    max-width: 1200px;
+    margin:0 auto;
+    /* da cancellare */
+    background-color:green;
+    height:100%;
+}
+nav.container{
+    height:70px;
+}
+.tre-colonne{
+    width:33.3333%;
+    height:100%;
+    margin:0 auto;
+    float:left;
+    /* da cancellare */
+    background-color: orange;
+    border: 5px solid purple;
+}
+nav{
+    text-transform: uppercase;
+    position: relative;
+    padding: 16px;
+}
+nav #logo{
+    float:left;
+
+}
+#menù{
+    float:left;
+    padding-left:50px;
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 11px;
+}
+#menù li{
+    display:inline-block;
+    line-height: 38px;
+    padding:0 7px;
+    letter-spacing: 0.5px;
+}
+#menù li a{
+    color:white;
+    text-decoration: none;
+}
+.cta{
+    float:right;
+    height:38px;
+    margin-top:6px;
+}
+.cta input{
+    font-weight: bold;
+    font-size: 11px;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+    height:38px;
+}
+.cta input[tutor]{
+    background-color:rgba(0,0,0,0);
+    margin-right:9px;
+    border:none;
+}
+.cta input[log-in]{
+    border: 1px solid #4e8cb6;
+    border-radius: 5px;
+    background-color:rgba(0,0,0,0);
+    padding: 8px 25px;
+}
+.cta input[piano]{
+    background-color: #7fb802;
+    border: 1px solid #7fb802;
+    border-radius: 5px;
+    padding: 8px 10px;
+}
