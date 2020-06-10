@@ -3,13 +3,16 @@
     padding:0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
-}
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color:#999;
 }
 .blu{
     background-color: #0d325a;
@@ -123,24 +126,39 @@ button#piano{
 .grigio p{
     margin:5px;
 }
-/* da cancellare */
-.container-fullwidth.bianco{
-    height: 400px;
-}
-.bianco{
-    background-color: #fff;
-}
 .tre-colonne{
     width:33.3333%;
     height:100%;
     margin:0 auto;
     float:left;
-    /* da cancellare */
-    background-color: orange;
-    border: 5px solid purple;
+    padding: 0 10px;
 }
-
+.bianco{
+    background-color: #fff;
+    padding:30px 0;
+    text-align: center!important;
+}
+.bianco h6{
+    font-size: 23px;
+    color:#7fb802;
+    font-weight: 400;
+    min-height: 60px;
+}
+.bianco hr{
+    width: 32px;
+    border-top: 2px solid lightgrey;
+    margin:10px 50%;
+}
+.bianco p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.tre-colonne .immagine img{
+    height: 150px;
+    margin-bottom:70px;
+}
 
 /* sistemare posizione immagine nel banner */
 /* sistemare grandezza font nel banner */
 /* controllare margini area grigia */
+/* in 'bianco' centrare hr */
