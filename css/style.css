@@ -131,10 +131,11 @@ button#piano{
 }
 .grigio h4{
     font-size:24px;
-    margin:5px;
+    margin:8px 0;
+    font-weight: 400;
 }
 .grigio p{
-    margin:5px;
+    margin-bottom:16px;
 }
 .tre-colonne{
     width:33.3333%;
@@ -157,7 +158,11 @@ button#piano{
 .bianco hr{
     width: 32px;
     border-top: 2px solid lightgrey;
-    margin:10px 50%;
+    margin: 10px 0;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .bianco p{
     font-size: 15px;
@@ -168,7 +173,5 @@ button#piano{
     margin-bottom:70px;
 }
 
-/* sistemare grandezza font nel banner */
-/* controllare margini area grigia */
 /* in 'bianco' centrare hr */
 /* hover */
