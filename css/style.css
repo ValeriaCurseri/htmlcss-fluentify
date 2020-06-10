@@ -35,15 +35,6 @@ body{
 nav.container{
     height:70px;
 }
-.tre-colonne{
-    width:33.3333%;
-    height:100%;
-    margin:0 auto;
-    float:left;
-    /* da cancellare */
-    background-color: orange;
-    border: 5px solid purple;
-}
 nav{
     text-transform: uppercase;
     position: relative;
@@ -73,31 +64,56 @@ nav #logo{
 .cta{
     float:right;
     height:38px;
-    margin-top:6px;
+    margin-top:9px;
 }
-.cta input{
+.cta button{
     font-weight: bold;
     font-size: 11px;
     color:white;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.5px;
-    height:38px;
 }
-.cta input[tutor]{
+.cta button#tutor{
     background-color:rgba(0,0,0,0);
     margin-right:9px;
     border:none;
 }
-.cta input[log-in]{
+.cta button#log-in{
     border: 1px solid #4e8cb6;
     border-radius: 5px;
     background-color:rgba(0,0,0,0);
     padding: 8px 25px;
 }
-.cta input[piano]{
+.cta button#piano{
     background-color: #7fb802;
     border: 1px solid #7fb802;
     border-radius: 5px;
     padding: 8px 10px;
+}
+/* .banner.container{
+    height: 420px;
+}
+.due-colonne{
+    width:50%;
+    height:100%;
+    margin:0 auto;
+    float:left;
+    /* da cancellare */
+    background-color: orange;
+    border: 5px solid purple;
+}
+
+
+ */
+
+
+.tre-colonne{
+    width:33.3333%;
+    height:100%;
+    margin:0 auto;
+    float:left;
+    /* da cancellare */
+    background-color: orange;
+    border: 5px solid purple;
 }
