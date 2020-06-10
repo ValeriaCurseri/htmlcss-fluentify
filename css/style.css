@@ -11,18 +11,8 @@ body{
     clear: both;
     display: table;
 }
-/* da cancellare */
-.container-fullwidth.grigio, .container-fullwidth.bianco{
-    height: 400px;
-}
 .blu{
     background-color: #0d325a;
-}
-.grigio{
-    background-color: #f9f9f9;
-}
-.bianco{
-    background-color: #fff;
 }
 .container{
     width:85%;
@@ -31,7 +21,6 @@ body{
 }
 /* da cancellare */
 section .container{
-    background-color:green;
     height:100%;
 }
 nav.container{
@@ -122,9 +111,25 @@ button#piano{
     position: relative;
     top:40px;
 }
-
-
-
+.grigio{
+    background-color: #f9f9f9;
+    text-align: center;
+    padding:40px 20px;
+}
+.grigio h4{
+    font-size:24px;
+    margin:5px;
+}
+.grigio p{
+    margin:5px;
+}
+/* da cancellare */
+.container-fullwidth.bianco{
+    height: 400px;
+}
+.bianco{
+    background-color: #fff;
+}
 .tre-colonne{
     width:33.3333%;
     height:100%;
@@ -138,3 +143,4 @@ button#piano{
 
 /* sistemare posizione immagine nel banner */
 /* sistemare grandezza font nel banner */
+/* controllare margini area grigia */
