@@ -26,6 +26,10 @@ p{
 }
 .blu{
     background-color: #0d325a;
+    background-image: url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+    background-position: 170% bottom;
+    background-repeat: no-repeat;
+    background-size: 980px 415px;
 }
 .container{
     width:85%;
@@ -99,10 +103,6 @@ button#piano{
     height: 420px;
     color:white;
     position:relative;
-    background-image: url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 .due-colonne{
     width:50%;
@@ -168,7 +168,7 @@ button#piano{
     margin-bottom:70px;
 }
 
-/* sistemare posizione immagine nel banner */
 /* sistemare grandezza font nel banner */
 /* controllare margini area grigia */
 /* in 'bianco' centrare hr */
+/* hover */
